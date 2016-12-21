@@ -24,7 +24,7 @@ github_username:  bawejakunal
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 theme: minima
 gems:
   - jekyll-feed
