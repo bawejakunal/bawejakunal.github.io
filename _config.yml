@@ -36,7 +36,7 @@ jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @repl
 twitter:
   username: bawejakunal # jekyll-seo-tag > Owners twitter username
 
-author: bawejakunal # jekyll-seo-tag > default author
+author: Kunal Baweja # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Kunal Baweja # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
@@ -46,6 +46,9 @@ social: # jekyll-seo-tag > social overrides
     - https://plus.google.com/+KunalBaweja
     - https://github.com/bawejakunal
     - https://www.flickr.com/photos/bawejakunal/
+
+error_mode: strict
+highlighter: rouge
 
 # 4. Jekyll settings
 sass:
