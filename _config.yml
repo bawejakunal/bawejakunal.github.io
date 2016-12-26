@@ -90,7 +90,7 @@ title: "Kunal Baweja" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 
 # Site description and default description, also used in jekyll-seo-tag
-url: "" # Site url, also used in jekyll-seo-tag
+url: "https://bawejakunal.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/bawejakunal/bawejakunal.github.io"
 email: "bawejakunal15@gmail.com"
 disqus: "bawejakunal-github-io"
