@@ -1,4 +1,17 @@
 ---
-layout: blog
+layout: default
 collectionpage: posts
 ---
+{% include site-header.html %}
+
+<main class="main  container">
+    
+    <div class="content">
+        {% include post-list.html %}
+    </div>
+
+    {% include site-aside.html %}
+
+</main>
+
+{% include site-footer.html %}

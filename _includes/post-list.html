@@ -1,14 +1,13 @@
 {% if paginator.posts %}
 
 	<ul class="list  list--posts">
-		{% for page in paginator.posts %}
+		{% for page in paginator.posts limit: 4 %}
 			<li class="item  item--post">
 				<article class="article  article--post  typeset">
 
 					<h2><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
 					{% include post-meta.html %}
-					{{ page.excerpt | markdownify | truncatewords: 60 }}
-
+					{{ page.excerpt | markdownify | truncatewords: 20 }}
 				</article>
 			</li>
 		{% endfor %}
@@ -16,7 +15,7 @@
 	{% include post-pagination.html %}
 
 {% else %}
-	<h2>Latest blog posts</h2>
+	<h4>Latest blog posts</h4>
 	<ul class="list  list--posts">
 		{% for page in site.posts limit: 4 %}
 			<li class="item  item--post">
@@ -24,8 +23,7 @@
 
 					<h5><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h5>
 					{% include post-meta.html %}
-					{{ page.excerpt | markdownify | truncatewords: 60 }}
-
+					{{ page.excerpt | markdownify | truncatewords: 20 }}
 				</article>
 			</li>
 		{% endfor %}
