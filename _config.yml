@@ -102,9 +102,6 @@ navigation_header:
   Home: /
   Blog: /blog/
 
-navigation_footer:
-  Theme by David Darnes: https://darn.es
-
 social_links:
   github:     https://github.com/bawejakunal
   linkedin:   https://www.linkedin.com/in/kunal-baweja
