@@ -1,0 +1,19 @@
+<aside class="aside  typeset">
+  <h2>About Me</h2>
+  <p>{{ site.description }}</p>
+
+  {% unless paginator.posts %}
+    {% if page.collection == "posts" %}
+      {% include post-related.html %}
+    {% else %}
+      {% include post-list.html %}
+    {% endif %}
+  {% endunless %}
+
+  {% if page.collection == "posts" or paginator.posts %}
+    {% include button.html text="Subscribe to posts &nbsp;" icon="rss" link="/feed.xml" %}
+  {% endif %}
+
+  {% include nav-social.html %}
+
+</aside>
