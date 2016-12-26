@@ -45,13 +45,14 @@ social: # jekyll-seo-tag > social overrides
     - https://www.linkedin.com/in/kunal-baweja
     - https://plus.google.com/+KunalBaweja
     - https://github.com/bawejakunal
+    - https://www.flickr.com/photos/bawejakunal/
 
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: America/New_York # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
@@ -61,7 +62,7 @@ collections:
     description: "Answers to What When Why & How" # The post list page content
     feature_text: |
       ## What When How & Why ?
-    feature_image: "https://unsplash.it/1300/400?image=1067"
+    feature_image: "/assets/blog.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -83,9 +84,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "Kunal Baweja" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-description:
-  "Hi I am Kunal Baweja, thanks for stopping by my website, hope you like it here :) I am a graduate student in computer science, interested in working on distributed systems and programming in general. If you like my work, feel free to drop me a message !"
+logo: "/assets/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 
 # Site description and default description, also used in jekyll-seo-tag
 url: "" # Site url, also used in jekyll-seo-tag
@@ -100,10 +99,12 @@ navigation_header:
   Blog: /blog/
 
 navigation_footer:
-  Inspired by David Darnes: https://darn.es
+  Theme by David Darnes: https://darn.es
 
 social_links:
-  Twitter: https://twitter.com/bawejakunal
-  LinkedIn: https://www.linkedin.com/in/kunal-baweja
-  GooglePlus: https://plus.google.com/+KunalBaweja
   GitHub: https://github.com/bawejakunal
+  LinkedIn: https://www.linkedin.com/in/kunal-baweja
+  Twitter: https://twitter.com/bawejakunal
+  Facebook: https://fb.com/kunal.baweja
+  Flickr: https://www.flickr.com/photos/bawejakunal/
+  GooglePlus: https://plus.google.com/+KunalBaweja

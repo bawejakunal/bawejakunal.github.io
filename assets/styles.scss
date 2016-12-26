@@ -68,8 +68,7 @@ body {
   display: inline-block;
   line-height: 0;
   img {
-    width: 4rem;
-    height: 4rem;
+    height: 3rem;
   }
 }
 
@@ -136,6 +135,7 @@ body {
 
 .content {
   width: 100%;
+  text-align: justify;
   @include breakpoint(break-1) {
     width: 62%;
     margin-right: 4%;

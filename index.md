@@ -1,9 +1,9 @@
 ---
+layout: home
 title: Kunal Baweja
 feature_text: |
   ## Click Code Repeat
-feature_image: "https://unsplash.it/1300/400?image=971"
-image: "https://unsplash.it/600/400?image=971"
+feature_image: "/assets/cover.jpg"
+image: "/assets/cover.jpg"
 ---
-
-Hi I am Kunal Baweja, a second semester graduate student in Computer Science at Columbia University in the City of New York. I like to explore concepts in distributed computing, algorithms and photography.
+Hi I am Kunal Baweja, a second semester graduate student in [Computer Science](http://www.cs.columbia.edu/){:target="_blank"} at [Columbia University in the City of New York](http://www.columbia.edu/){:target="_blank"}. I like to explore concepts in distributed computing, algorithms and [photography](https://www.flickr.com/photos/bawejakunal/){:target="_blank"}.
