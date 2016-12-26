@@ -2,7 +2,7 @@
 layout: home
 title: Kunal Baweja
 feature_text: |
-  ## Click Code Repeat
+    <h2 class="highlighted">Click Code Repeat</h2>
 feature_image: "/assets/cover.jpg"
 image: "/assets/cover.jpg"
 ---

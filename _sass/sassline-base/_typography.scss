@@ -66,6 +66,12 @@ a {
     font-weight: map-get($headingtype, bold);
   }
 
+  //text highlight
+  .highlighted {
+    background-color: $color__site--highbackground;
+    color: $color__site--highcolor;
+  }
+
   // Heading level 1.
   h1, .alpha {
     @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);

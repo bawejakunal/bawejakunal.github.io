@@ -59,9 +59,9 @@ collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "Answers to What When Why & How" # The post list page content
+    description: "My views on life universe and everything beyond"
     feature_text: |
-      ## What When How & Why ?
+      <h2 class="highlighted">What When How & Why ?</h2>
     feature_image: "/assets/blog.jpg"
 
 # 6. Jekyll collections settings
@@ -72,14 +72,14 @@ defaults:
       type: pages
     values:
       layout: page # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+      image: "/assets/kunal-logo.jpg" # Default image for sharing
   -
     scope:
       path: ""
       type: posts
     values:
       layout: post # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+      image: "/assets/blog.jpg" # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right

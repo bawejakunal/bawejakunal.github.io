@@ -8,3 +8,5 @@ $color__site--link: #48affd;
 $color__site--link--hover: darken($color__site--link, 10%);
 $color__site--link--current: desaturate($color__site--link, 100%);
 $color__site--accent: #48affd;
+$color__site--highbackground :rgba(0,0,0,0.5);
+$color__site--highcolor: #fff;
