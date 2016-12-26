@@ -102,6 +102,10 @@ navigation_header:
   Home: /
   Blog: /blog/
 
+#site credits
+navigation_footer:
+  Adopted Alembic Theme: https://alembic.darn.es/
+
 social_links:
   github:     https://github.com/bawejakunal
   linkedin:   https://www.linkedin.com/in/kunal-baweja
