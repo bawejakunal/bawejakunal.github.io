@@ -61,13 +61,11 @@ timezone: America/New_York # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: "Blog Post" # Needed for Siteleaf
     output: true
-    description: "My views on life universe and everything beyond"
     feature_text: |
       <h2 class="highlighted">What When How & Why ?</h2>
     feature_image: "/assets/blog.jpg"
-    image: "/assets/blog.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -77,7 +75,7 @@ defaults:
       type: pages
     values:
       layout: page # Default layout
-      # image: "/assets/kunal-logo.jpg" # Default image for sharing
+      image: "/assets/kunal-logo.png" # Default image for sharing
   -
     scope:
       path: ""

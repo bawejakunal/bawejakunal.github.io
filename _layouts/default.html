@@ -12,7 +12,7 @@
 			{% seo title=false %}
 
 			{% assign collectiondata = site.collections | where: "label", page.collection | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
+			<title>{{ page.title }}</title>
 		{% else %}
 			{% seo %}
 		{% endif %}
