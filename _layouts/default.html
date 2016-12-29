@@ -10,8 +10,7 @@
 
 		{% if page.collection %}
 			{% seo title=false %}
-
-			{% assign collectiondata = site.collections | where: "label", page.collection | first %}
+			<!-- {% assign collectiondata = site.collections | where: "label", page.collection | first %} -->
 			<title>{{ page.title }}</title>
 		{% else %}
 			{% seo %}

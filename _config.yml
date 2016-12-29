@@ -65,7 +65,7 @@ collections:
     output: true
     feature_text: |
       <h2 class="highlighted">What When How & Why ?</h2>
-    feature_image: "/assets/blog.jpg"
+    feature_image: https://c2.staticflickr.com/6/5811/20978819393_189ed0c834_k.jpg
 
 # 6. Jekyll collections settings
 defaults:
@@ -75,19 +75,19 @@ defaults:
       type: pages
     values:
       layout: page # Default layout
-      image: "/assets/kunal-logo.png" # Default image for sharing
+      image: "/assets/img/kunal-logo.png" # Default image for sharing
   -
     scope:
       path: ""
       type: posts
     values:
       layout: post # Default layout
-      image: "/assets/blog.jpg" # Default image for sharing
+      image: https://c2.staticflickr.com/6/5811/20978819393_189ed0c834_k.jpg # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "Kunal Baweja" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/img/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 
 # Site description and default description, also used in jekyll-seo-tag
 url: "https://bawejakunal.github.io" # Site url, also used in jekyll-seo-tag
