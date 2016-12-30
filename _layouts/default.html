@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-	<head>
-		<!-- General meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		{% if page.indexing == false %}
-			<meta name="robots" content="noindex">
-		{% endif %}
-
-		{% if page.collection %}
-			{% seo title=false %}
-			<!-- {% assign collectiondata = site.collections | where: "label", page.collection | first %} -->
-			<title>{{ page.title }}</title>
-		{% else %}
-			{% seo %}
-		{% endif %}
-
-    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-
-		{% include site-favicons.html %}
-	</head>
-	<body>
-		{% include site-icons.svg %}
-
-		{{ content }}
-
-	</body>
+<head>
+	<!-- General meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% if page.indexing == false %}
+	<meta name="robots" content="noindex">
+	{% endif %}
+	{% if page.collection %}
+		{% seo title=false %}
+		<!-- {% assign collectiondata = site.collections | where: "label", page.collection | first %} -->
+		<title>{{ page.title }}</title>
+	{% else %}
+		{% seo %}
+	{% endif %}
+<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+{% include site-favicons.html %}
+</head>
+<body>
+	{% include site-icons.svg %}
+	{{ content }}
+</body>
 </html>
