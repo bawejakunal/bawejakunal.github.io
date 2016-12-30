@@ -5,7 +5,6 @@ feature_text: |
     <h2 class="highlighted">kunal@baweja:~$ whoami</h2>
 feature_image: /assets/img/kunal-avatar.jpg
 image: /assets/img/kunal-avatar.jpg
-permalink: /about/
 ---
 Hi I am Kunal Baweja, presently a second semester graduate student in [Computer Science]({{site.columbia.cs}}){:target="_blank"} at [Columbia University in the City of New York]({{site.columbia.university}}){:target="_blank"}. Now that you are here, go on and know more about me !
 
