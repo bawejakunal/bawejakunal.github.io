@@ -92,8 +92,6 @@ logo: "/assets/img/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 # Site description and default description, also used in jekyll-seo-tag
 url: "https://bawejakunal.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/bawejakunal/bawejakunal.github.io"
-email: "bawejakunal15@gmail.com"
-phone: +1-914-689-5240
 disqus: "bawejakunal-github-io"
 avatarurl: "https://avatars0.githubusercontent.com/u/4623624" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
@@ -107,7 +105,9 @@ navigation_header:
 navigation_footer:
   Adopted Alembic Theme: https://alembic.darn.es/
 
-social_links:
+contact:
+  email:      bawejakunal15@gmail.com
+  phone:      +1-914-689-5240
   github:     https://github.com/bawejakunal
   linkedin:   https://www.linkedin.com/in/kunal-baweja
   twitter:    https://twitter.com/bawejakunal
