@@ -93,6 +93,7 @@ logo: "/assets/img/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 url: "https://bawejakunal.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/bawejakunal/bawejakunal.github.io"
 email: "bawejakunal15@gmail.com"
+phone: +1-914-689-5240
 disqus: "bawejakunal-github-io"
 avatarurl: "https://avatars0.githubusercontent.com/u/4623624" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 

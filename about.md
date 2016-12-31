@@ -22,4 +22,4 @@ Hi I am Kunal Baweja, presently a second semester graduate student in [Computer 
 ##### Know even more about me ?
 You can download my updated resume from [here](https://github.com/bawejakunal/resume/blob/master/kunal-resume.pdf){:target="_blank"}.
 <br/>
-The best way to reach me is via email <a href="mailto:{{site.email}}">{{site.email}}</a> or a phone call to <a href="tel:+19146895240">+1-914-689-5240</a>.
+The best way to reach me is via email <a href="mailto:{{site.email}}">{{site.email}}</a> or a phone call to <a href="tel:{{site.phone}}">{{site.phone}}</a>. You may also reach me on social media links listed under the contact me section on the side panel.

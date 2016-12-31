@@ -3,7 +3,7 @@
   {% for link in site.social_links %}
     {% assign id = link[0] | downcase %}
     <a class="link" target="_blank" href="{{ link[1] }}" title="{{ link[0] }}">
-      {% include icon.html id=id %}
+    {% include icon.html id=id %}
     </a>
   {% endfor %}
 </nav>
