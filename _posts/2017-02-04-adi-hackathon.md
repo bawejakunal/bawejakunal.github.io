@@ -1,6 +1,6 @@
 ---
 title: Sigma Learn
-category: Coding Project Hackathon
+category: hackathon
 excerpt: |
     Hacking with speech to text conversion
 feature_text: |
