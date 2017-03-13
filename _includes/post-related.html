@@ -3,7 +3,7 @@
   {% for page in site.related_posts limit: 3 %}
     <li class="item item--post">
       <div class="article article--post typeset">
-        <h5><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h5>
+        <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
         {% include post-meta.html %}
         <span><br/>{{ page.excerpt | truncatewords: 10 }}</span>
       </div>

@@ -2,7 +2,7 @@
 layout: home
 title: whoami
 feature_text: |
-    <h2 class="highlighted">kunal@baweja:~$ whoami</h2>
+    <h2 class="whitetext highlighted">kunal@baweja:~$ whoami</h2>
 feature_image: /assets/img/kunal-avatar.jpg
 image: /assets/img/kunal-avatar.jpg
 ---

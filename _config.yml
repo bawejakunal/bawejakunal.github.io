@@ -64,7 +64,7 @@ collections:
     title: "Blog Post" # Needed for Siteleaf
     output: true
     feature_text: |
-      <h2 class="highlighted">What When How & Why ?</h2>
+      <h2 class="highlighted whitetext">What When How & Why ?</h2>
     feature_image: https://c2.staticflickr.com/6/5811/20978819393_189ed0c834_k.jpg
 
 # 6. Jekyll collections settings

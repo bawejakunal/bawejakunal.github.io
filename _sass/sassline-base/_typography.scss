@@ -69,6 +69,11 @@ a {
   //text highlight
   .highlighted {
     background-color: $color__site--highbackground;
+    padding: 0px;
+  }
+
+  //white text
+  .whitetext{
     color: $color__site--highcolor;
   }
 
