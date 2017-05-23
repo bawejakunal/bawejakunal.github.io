@@ -14,13 +14,13 @@
 {% else %}
 {% seo %}
 {% endif %}
-<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 {% include site-favicons.html %}
 </head>
 <body>
 {% include site-icons.svg %}
 {{ content }}
 {% include google-analytics.html %}
+<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </body>
 </html>
