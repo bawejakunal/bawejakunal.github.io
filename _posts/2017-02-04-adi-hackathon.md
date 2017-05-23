@@ -6,8 +6,8 @@ excerpt: |
 feature_text: |
   <h2 class="whitetext highlighted">Sigma Learn @ Columbia ADI Hackathon</h2> 
   <span class="whitetext highlighted">Hacking with speech to text conversion</span>
-feature_image: "https://c1.staticflickr.com/1/627/32342340582_7bbcb5a2f8_c.jpg"
-image: "https://c1.staticflickr.com/1/627/32342340582_7bbcb5a2f8_c.jpg"
+feature_image: "https://c1.staticflickr.com/1/627/32342340582_7bbcb5a2f8_z.jpg"
+image: "https://c1.staticflickr.com/1/627/32342340582_7bbcb5a2f8_z.jpg"
 tags: hackathon nlp
 ---
 
