@@ -65,7 +65,7 @@ collections:
     output: true
     feature_text: |
       <h2 class="highlighted whitetext">What When How & Why ?</h2>
-    feature_image: https://c2.staticflickr.com/6/5811/20978819393_189ed0c834_k.jpg
+    feature_image: https://c2.staticflickr.com/6/5811/20978819393_f156bdba7b_z.jpg
 
 # 6. Jekyll collections settings
 defaults:
@@ -82,7 +82,7 @@ defaults:
       type: posts
     values:
       layout: post # Default layout
-      image: https://c2.staticflickr.com/6/5811/20978819393_189ed0c834_k.jpg # Default image for sharing
+      image: https://c2.staticflickr.com/6/5811/20978819393_f156bdba7b_z.jpg # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
