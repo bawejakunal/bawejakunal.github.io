@@ -11,13 +11,10 @@
 # 1. Files excluded from Jekyll builds
 exclude:
 - README.md
-- screenshot.png
 - LICENSE
 - CNAME
 - Gemfile
 - Gemfile.lock
-- demo/*
-- alembic-jekyll-theme.gemspec
 
 # 2. Installed Gems
 gems:
@@ -33,7 +30,7 @@ gems:
 # 3. Gem settings
 paginate: 10 # jekyll-paginate > items per page
 paginate_path: "/blog/page:num/" # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+jekyll-mentions: https://twitter.com # base url for jekyll mentions
 twitter:
   username: bawejakunal # jekyll-seo-tag > Owners twitter username
 
@@ -48,41 +45,26 @@ social: # jekyll-seo-tag > social overrides
     - https://github.com/bawejakunal
     - https://www.flickr.com/photos/bawejakunal/
 
-error_mode: strict
-highlighter: rouge
-
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
-# 5. Collections
-collections:
-  posts:
-    title: "Blog Post" # Needed for Siteleaf
-    output: true
-    feature_text: |
-      <h2 class="highlighted whitetext">What When How & Why ?</h2>
-    feature_image: https://c2.staticflickr.com/6/5811/20978819393_f156bdba7b_z.jpg
-
-# 6. Jekyll collections settings
+# 6. Site wide defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: pages
     values:
       layout: page # Default layout
       image: "/assets/img/kunal-logo.png" # Default image for sharing
-  -
-    scope:
+
+  - scope:
       path: ""
       type: posts
     values:
-      layout: post # Default layout
-      image: https://c2.staticflickr.com/6/5811/20978819393_f156bdba7b_z.jpg # Default image for sharing
+      layout: post
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
@@ -93,7 +75,16 @@ logo: "/assets/img/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 url: "https://bawejakunal.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/bawejakunal/bawejakunal.github.io"
 disqus: "bawejakunal-github-io"
-avatarurl: "https://avatars0.githubusercontent.com/u/4623624" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://avatars0.githubusercontent.com/u/4623624"
+
+# site verification
+webmaster_verifications:
+  google: sCRGg28ReGiDdQ4JQ75b6RCTtmBD9J6QQwh1kpIMDAU
+
+# default markdown processor and highlighter
+markdown: kramdown
+highlighter: rouge
+error_mode: strict
 
 # 8. Site navigation
 navigation_header:

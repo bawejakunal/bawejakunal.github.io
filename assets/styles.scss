@@ -296,8 +296,7 @@ input[type="text"],
 input[type="email"],
 input[type="submit"],
 textarea {
-  padding: .6rem 1.2rem;
-  margin-bottom: .6rem;
+  padding: .4rem .4rem;
   transition: color .1s, background-color .1s, border .1s;
   line-height: inherit;
   border: none;
@@ -308,7 +307,7 @@ textarea {
     outline: solid .2rem invert($color__site--accent);
   }
   .icon {
-    margin: 0 0 .35rem;
+    margin: 0 0 0rem;
   }
 }
 
