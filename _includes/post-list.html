@@ -2,7 +2,7 @@
     <ul class="list  list--posts">
         {% for page in paginator.posts limit: 5 %}
             <li class="item  item--post">
-                <div class="article  article--post  typeset">
+                <div class="typeset">
                     <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
                     {% include post-meta.html %}
                     <span><br/>{{ page.excerpt | truncatewords: 20 }}</span>
@@ -17,7 +17,7 @@
     <ul class="list  list--posts">
         {% for page in site.posts limit: 5 %}
             <li class="item  item--post">
-                <div class="article  article--post  typeset">
+                <div class="typeset">
                     <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
                     {% include post-meta.html %}
                     <span><br/>{{ page.excerpt | truncatewords: 20 }}</span>
