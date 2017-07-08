@@ -8,7 +8,7 @@ image: "https://c1.staticflickr.com/1/627/32342340582_7bbcb5a2f8_z.jpg"
 tags: hackathon nlp
 ---
 
-This February I participated in [DevFest](https://devfe.st){:target="_blank"}, Columbia University's annual week-long learnathon. For the learnathon of the week, that is the first three days, I focussed on the [Data Science Track](https://learn.devfe.st/datascience/){:target="_blank"} to get familiar with data visualization and the statistics behind it. This was a fun learning experience divided into 6 programming modules that I completed over the four days.
+This February I participated in [DevFest](https://devfe.st){:target="_blank"}, Columbia University's annual week-long learnathon. For the learnathon of the week, that is the first three days, I focused on the [Data Science Track](https://learn.devfe.st/datascience/){:target="_blank"} to get familiar with data visualization and the statistics behind it. This was a fun learning experience divided into 6 programming modules that I completed over the four days.
 
 The last day of *ADI DevFest* kicked off with an 18 hour hackathon, where my team *Sigma* focussed on developing a prototype web application, *Sigma Learn*, to convert classroom lectures into text notes in real time. The motivation behind this idea was to facilitate students with physical disabilities, for whom it might be difficult to take down running notes. Additionally it can be a boon for lazy students as well :no_mouth:
 
