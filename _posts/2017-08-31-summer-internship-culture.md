@@ -1,0 +1,21 @@
+---
+title: Internship at 1010data - Part 2
+category: internship
+excerpt: Intern work experience at 1010data
+feature_text: <h2 class="whitetext">Internship at 1010data</h2><span class="whitetext">Work Culture - Intern Perspective</span> 
+feature_image: https://c1.staticflickr.com/5/4020/35723610405_0c790a54d6_z.jpg
+image: https://c1.staticflickr.com/5/4020/35723610405_0c790a54d6_z.jpg
+tags: internship engineering fun
+---
+
+In any new work place, including internship one of the many important things on one's mind is how to navigate the work place ? How are the fellow employees at your new workplace or how well do you fit into the overall work culture ? I will highlight upon some of these points in this post, picking up from my previous [post](/internship/2017/07/02/summer-internship){:target="_blank"}
+
+At 1010data, the most important resource for the company are their people. They spend a great deal of time, effort and resources in ensuring the collective growth of their employees, be it professional or personal. As I mentioned earlier, the company cherishes close coordination and tough questions.
+
+As an intern my work was closely overviewed by my manager and colleagues from the systems development team. Individual tasks were clearly laid out, with the final objective and the rest is up to you to try to come up with the best possible solution, without any time bounds. The intern project is designed as to be as independent as possible so that there are minimal situations which might affect the ongoing company projects or vice-versa. When I say the project is independent, I do not intend to say that it is something that the company will not use, in fact it is something new and innovative that company is trying out and thus makes most use of the knowledge gathered and transferred by interns during the summer. In my intern projects, whenever I was stuck, I always got some good help and knowledge resources from my mentor, manager, colleagues and the internal wikis and chat groups.
+
+In a bigger picture, the engineering team ensures that all different sub-groups meet up at least once a week, where every group's head presents their team work over the week and for the coming week to others. Anyone can weigh in on these, provide their inputs, improvisations or criticism, all of which leads to betterment of the task at hand and encouragement to those working on a particular task. It helps everyone to be looped in and develop a perspective of the direction the company is headed towards.
+
+At the organization level this is backed by monthly townhall meetings held across the workplace. These townhall meetings adopt an AMA format where employees can vote up the questions they want answers to, from technological developments to business strategies, which are usually answered by the top level executives of different divisons viz. engineering, marketing, business development, human resources etc. These townhall meetings promote a good work coordination and understanding of the impact that an individual's work can make in the overall advancement of organization.
+
+At last, coming to the informal part of the work culture, 1010data also organizes a number of fun activities, happy hours, meetups and lunch-and-learn eetings to keep up the extra-curriculars for employees. Every thursday after work is usually reserved for a movie night, gaming night, lawn games and a few other weekly planned activities. Apart from that their are specially organized activities too such as wine tasting, Yankees game night (interns only :stuck_out_tongue:), hummus cooking challenge, field day (Central Park this summer :smile:) etc, all of which ensure a good social life among the employees and out of work bonding. My personal favourites were the chat group for foodies, which introduced me to some amazing eateries around midtown Manhattan and the monthly lunch roulette, in which every person gets grouped with three or four other employees at random and the group is supposed to grab lunch together at least once a month. The aim is to get every person to know everyone else within the company, even if they are not working on the same team or project. What could be better than talking over some good food ? 
