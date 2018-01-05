@@ -3,7 +3,6 @@ title: Internship at 1010data - Part 2
 category: internship
 excerpt: Intern work experience at 1010data
 feature_text: <h2 class="whitetext">Internship at 1010data</h2><span class="whitetext">Work Culture - Intern Perspective</span> 
-feature_image: https://c1.staticflickr.com/5/4020/35723610405_0c790a54d6_z.jpg
 image: https://c1.staticflickr.com/5/4020/35723610405_0c790a54d6_z.jpg
 tags: internship engineering fun
 ---

@@ -3,7 +3,6 @@ title: Internship at 1010data
 category: internship
 excerpt: First month at 1010data
 feature_text: <h2 class="whitetext">Internship at 1010data</h2><span class="whitetext">Lookback at first four weeks</span> 
-feature_image: https://c1.staticflickr.com/5/4112/35250044280_b70a43be21_z.jpg
 image: https://c1.staticflickr.com/5/4112/35250044280_b70a43be21_z.jpg
 tags: internship engineering fun
 ---

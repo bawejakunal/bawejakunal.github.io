@@ -1,7 +1,7 @@
-{% if page.feature_image %}
-    {% assign feature_image = page.feature_image %}
-{% elsif layout.feature_image %}
-    {% assign feature_image = layout.feature_image %}
+{% if page.image %}
+    {% assign feature_image = page.image %}
+{% elsif layout.image %}
+    {% assign feature_image = layout.image %}
 {% endif %}
 
 {% if page.feature_text %}

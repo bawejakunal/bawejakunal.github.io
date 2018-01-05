@@ -1,9 +1,7 @@
 ---
 layout: home
 title: whoami
-feature_text: |
-    <h2 class="whitetext highlighted">kunal@baweja:~$ whoami</h2>
-feature_image: /assets/img/kunal-avatar.jpg
+feature_text: <h2 class="whitetext highlighted">kunal@baweja:~$ whoami</h2>
 image: /assets/img/kunal-avatar.jpg
 ---
 I pursued a MS in Computer Science at [Columbia University in the City of New York]({{site.columbia.university}}){:target="_blank"}, in Software Systems Track.
