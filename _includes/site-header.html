@@ -5,3 +5,10 @@
 </div>
 {% include site-feature.html %}
 </header>
+
+<!--collect all blog tags
+http://longqian.me/2017/02/09/github-jekyll-tag/
+-->
+{% if site.tags != "" %}
+  {% include collect-tags.html %}
+{% endif %}

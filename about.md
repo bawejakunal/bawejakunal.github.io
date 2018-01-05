@@ -6,14 +6,18 @@ feature_text: |
 feature_image: /assets/img/kunal-avatar.jpg
 image: /assets/img/kunal-avatar.jpg
 ---
-Hi I am Kunal Baweja, currently pursuing a Masters in [Computer Science]({{site.columbia.cs}}){:target="_blank"} at [Columbia University in the City of New York]({{site.columbia.university}}){:target="_blank"}. Now that you are here, go on and know more about me !
+I pursued a MS in Computer Science at [Columbia University in the City of New York]({{site.columbia.university}}){:target="_blank"}, in Software Systems Track.
+
+I got my B.E.(Hons) in Computer Science from Birla Institute of Technology & Science, Pilani, India in 2015 and moved to National University of Singapore as a Research Intern where I worked on research prototypes in web security and crypto-currencies.
+
+Now that you are here, go on and know more about me !
 
 ##### What interests me ?
-  * Fast Algorithms
+  * Efficient Algorithms
   * Distributed Computing
   * Building scalable web applications
-  * Physics
   * Photography & Food
+  * Physics
   * Making bullet points (not so good at paragraphs)
 
 ##### What scares me ?

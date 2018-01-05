@@ -1,7 +1,22 @@
-{% if paginator.posts %}
-    <ul class="list  list--posts">
-        {% for page in paginator.posts limit: 5 %}
-            <li class="item  item--post">
+{% if page.collection == "tag" %}
+    {% assign target = page.tag %}
+    <ul class="list list--posts">
+    {% for page in site.posts %}
+        {% if page.tags contains target %}
+            <li class="item item--post">
+                <div class="typeset">
+                    <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
+                    {% include post-meta.html %}
+                    <span><br/>{{ page.excerpt | truncatewords: 20 }}</span>
+                </div>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% elsif paginator.posts %}
+    <ul class="list list--posts">
+        {% for page in paginator.posts limit: site.paginate %}
+            <li class="item item--post">
                 <div class="typeset">
                     <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
                     {% include post-meta.html %}
@@ -11,19 +26,8 @@
         {% endfor %}
     </ul>
     {% include post-pagination.html %}
-
 {% else %}
-    <h4>Latest blog posts</h4>
-    <ul class="list  list--posts">
-        {% for page in site.posts limit: 5 %}
-            <li class="item  item--post">
-                <div class="typeset">
-                    <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
-                    {% include post-meta.html %}
-                    <span><br/>{{ page.excerpt | truncatewords: 20 }}</span>
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
-
+    <h4>Recent Posts</h4>
+    {% assign related_posts = site.posts | slice: 0, 3 %}
+    {% include post-related.html %}
 {% endif %}

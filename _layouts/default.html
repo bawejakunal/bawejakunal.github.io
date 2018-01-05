@@ -8,7 +8,6 @@
 {% endif %}
 {% if page.collection %}
 {% seo title=false %}
-<!-- {% assign collectiondata = site.collections | where: "label", page.collection | first %} -->
 <title>{{ page.title }}</title>
 {% else %}
 {% seo %}
@@ -18,9 +17,11 @@
 </head>
 <body>
 {% include site-icons.svg %}
+{% include site-header.html %}
 {{ content }}
 {% include google-analytics.html %}
+{% include site-footer.html %}
 </body>
 <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 </html>

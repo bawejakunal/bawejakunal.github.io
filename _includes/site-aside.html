@@ -1,15 +1,18 @@
-<aside class="aside  typeset">
-  {% unless paginator.posts %}
-    {% if page.collection == "posts" %}
-      {% include post-related.html %}
-    {% else %}
-      {% include post-list.html %}
+<aside class="aside typeset">
+    {% unless paginator.posts or page.collection == "tag" %}
+        {% if page.collection == "posts"%}
+            <h4>Related Posts</h4>
+            {% assign related_posts = site.related_posts | slice: 0, 3 %}
+            {% include post-related.html %}
+        {% else %}
+            {% include post-list.html %}
+        {% endif %}
+    {% endunless%}
+
+    {% if page.collection == "posts" or page.collection == "tag"
+    or paginator.posts %}
+        {% include button.html text="Subscribe" icon="rss" link="/feed.xml" %}
     {% endif %}
-  {% endunless %}
 
-  {% if page.collection == "posts" or paginator.posts %}
-    {% include button.html text="Subscribe" icon="rss" link="/feed.xml" %}
-  {% endif %}
-
-  {% include nav-social.html %}
+    {% include nav-social.html %}
 </aside>

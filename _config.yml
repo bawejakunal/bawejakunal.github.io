@@ -28,9 +28,14 @@ gems:
 - github-pages
 
 # 3. Gem settings
-paginate: 10 # jekyll-paginate > items per page
+sass:
+  style: compressed
+  sass_dir: _sass
+
+paginate: 8 # jekyll-paginate > items per page
 paginate_path: "/blog/page:num/" # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # base url for jekyll mentions
+
 twitter:
   username: bawejakunal # jekyll-seo-tag > Owners twitter username
 
@@ -65,6 +70,15 @@ defaults:
       type: posts
     values:
       layout: post
+
+  - scope:
+      path: ""
+      type: tag
+    values:
+      layout: tag
+collections:
+  tag:
+      output: true
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
