@@ -36,6 +36,9 @@ paginate: 8 # jekyll-paginate > items per page
 paginate_path: "/blog/page:num/" # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # base url for jekyll mentions
 
+compress_html:
+  clippings: all
+
 twitter:
   username: bawejakunal # jekyll-seo-tag > Owners twitter username
 
@@ -53,7 +56,7 @@ social: # jekyll-seo-tag > social overrides
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: /:categories/:title.html  # define url construction
 timezone: America/New_York # Timezone for blog posts and alike
 
 # 6. Site wide defaults
