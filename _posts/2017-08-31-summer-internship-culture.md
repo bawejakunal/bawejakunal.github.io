@@ -5,6 +5,7 @@ excerpt: Intern work experience at 1010data
 feature_text: <h2 class="whitetext">Internship at 1010data</h2><span class="whitetext">Work Culture - Intern Perspective</span> 
 image: https://c1.staticflickr.com/5/4020/35723610405_0c790a54d6_z.jpg
 tags: internship engineering fun
+comments: true
 ---
 
 In any new work place, including internship one of the many important things on one's mind is how to navigate the work place ? How are the fellow employees at your new workplace or how well do you fit into the overall work culture ? I will highlight upon some of these points in this post, picking up from my previous [post](/internship/2017/07/02/summer-internship){:target="_blank"}
