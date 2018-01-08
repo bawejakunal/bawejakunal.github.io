@@ -24,4 +24,4 @@ Now that you are here, go on and know more about me !
 ##### Know even more about me ?
 You can download my updated [resume](https://github.com/bawejakunal/resume/blob/master/kunal-resume.pdf){:target="_blank"} or [curriculum vitae](https://github.com/bawejakunal/resume/blob/master/cv/kunal-cv.pdf){:target="_blank"}.
 <br/>
-The best way to reach me is via email <a href="mailto:{{site.contact.email}}">{{site.contact.email}}</a> or a phone call to <a href="tel:{{site.contact.phone}}">{{site.contact.phone}}</a>. You may also reach me on social media links listed under the contact me section on the side panel.
+The best way to reach me is via <a href="mailto:{{site.contact.email}}">email</a>. You may also reach me on social media links listed under the contact me section on the side panel.
