@@ -1,4 +1,11 @@
-_site
+# Directories
+_site/
+vendor/
+
+# file extensions
+*.swp
+
+# individual files
 .DS_Store
 .jekyll
 .jekyll-metadata
