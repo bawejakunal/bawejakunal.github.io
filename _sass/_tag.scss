@@ -1,13 +1,11 @@
 .post-tag {
   display: inline-block;
   /*background: rgba($color__site--link, 0.1);*/
-  padding: 0 .5rem;
-  margin-right: .5rem;
+  padding-right: 0.5rem;
   border-radius: 4px;
   color: $color__site--link;
   &:before {
-    content: "\f02b";
-    padding-right: .5em;
+    content: "#";
   }
   &:hover {
     text-decoration: none;
