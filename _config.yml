@@ -92,7 +92,6 @@ logo: "/assets/img/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 # Site description and default description, also used in jekyll-seo-tag
 url: "https://bawejakunal.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/bawejakunal/bawejakunal.github.io"
-disqus: "bawejakunal-github-io"
 avatarurl: "https://avatars0.githubusercontent.com/u/4623624"
 
 # site verification
