@@ -58,7 +58,7 @@ social: # jekyll-seo-tag > social overrides
 sass:
   style: compressed # Style compression
 permalink: /:categories/:title/  # define url construction
-timezone: America/New_York # Timezone for blog posts and alike
+timezone: America/Los_Angeles # Timezone for blog posts and alike
 
 # 6. Site wide defaults
 defaults:
@@ -106,7 +106,6 @@ error_mode: strict
 # 8. Site navigation
 navigation_header:
   Home: /
-  About: /about/
   Blog: /blog/
 
 #site credits

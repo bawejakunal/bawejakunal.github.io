@@ -1,13 +1,23 @@
 ---
 layout: home
 title: Kunal Baweja
-feature_text: <h2 class="whitetext highlighted">What’s this ?</h2>
-image: https://c2.staticflickr.com/6/5727/30497145636_3ecab588f7_z.jpg
+feature_text: <h2 class="whitetext highlighted">$ whoami</h2>
+image: /assets/img/kunal-avatar.jpg
 ---
-Hi! I am Kunal Baweja.
 
-I am a software engineer interested in building scalable, secure and accessible technological solutions for large scale systems.
+#### Hi :wave:
 
-Aside from computer science I am a hobbyist photographer and like to travel, exploring attractions with my lens. If it interests you please have a look at my work on [Flickr]({{site.contact.flickr}}){:target="_blank"}.
 
-This is where I share things I have been learning and working on. Thanks for stopping, hope you like it here. Please feel free to get in touch !
+I am Kunal Baweja.
+
+- :telescope: Working as software engineer on Notifications team [@TwitterEng](https://twitter.com/twittereng)
+- :seedling: Learning to set up open source home automation via [@home_assistant](https://twitter.com/home_assistant)
+- :speech_balloon: Ask me about Distributed Systems, IoT, collaboration and photography !!
+- :mailbox: Reach me: [@bawejakunal](https://twitter.com/bawejakunal) on Twitter or [drop a message on LinkedIn](https://www.linkedin.com/in/kunal-baweja/)
+- :zap: Fun fact: I occassionally update this personal site
+- :camera: Photography on [Flickr](https://flickr.com/photos/bawejakunal)
+
+##### Know even more about me ?
+You can download my updated [resume](https://github.com/bawejakunal/resume/blob/master/kunal-resume.pdf){:target="_blank"} or [curriculum vitae](https://github.com/bawejakunal/resume/blob/master/cv/kunal-cv.pdf){:target="_blank"}.
+<br/>
+The best way to reach me is via email is [lastname][firstname]15[at]gmail.com.
