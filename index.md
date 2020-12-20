@@ -16,7 +16,7 @@ I am Kunal Baweja.
 - :mailbox: Reach me: [@bawejakunal](https://twitter.com/bawejakunal) on Twitter or [drop a message on LinkedIn](https://www.linkedin.com/in/kunal-baweja/)
 - :zap: Fun fact: I occassionally update this personal site
 - :camera: Photography on [Flickr](https://flickr.com/photos/bawejakunal)
-- :books: A non exhaustive reading list is available on [Goodreads](https://www.goodreads.com/review/list/55383083-kunal?shelf=currently-reading)
+- :books: Recommended readings available on [Goodreads](https://www.goodreads.com/review/list/55383083-kunal?shelf=currently-reading) and [Pocket](https://getpocket.com/@e83pbTb5A2207ds9e5g40V6g33d3A637d01D58h95dJ55aH613245RaKC68nT568)
 
 ##### Know even more about me ?
 You can download my updated [resume](https://github.com/bawejakunal/resume/blob/master/kunal-resume.pdf){:target="_blank"} or [curriculum vitae](https://github.com/bawejakunal/resume/blob/master/cv/kunal-cv.pdf){:target="_blank"}.
