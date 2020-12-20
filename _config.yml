@@ -44,15 +44,6 @@ twitter:
   username: bawejakunal # jekyll-seo-tag > Owners twitter username
 
 author: Kunal Baweja # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: Kunal Baweja # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/bawejakunal
-    - https://www.facebook.com/kunal.baweja
-    - https://www.linkedin.com/in/kunal-baweja
-    - https://plus.google.com/+KunalBaweja
-    - https://github.com/bawejakunal
-    - https://www.flickr.com/photos/bawejakunal/
 
 # 4. Jekyll settings
 sass:
